@@ -6,8 +6,11 @@ Latar belakang Tools ini dibuat berdasarkan masalah saya sendiri, saya mempunyai
 Fitur Utama:
 
 • Preprocessing data: membersihkan data, menghitung durasi kerja, dan mengelompokkan berdasarkan periode harian, mingguan, dan bulanan.
+
 • Melatih model machine learning (Decision Tree) untuk mengkategorikan data.
+
 • Prediksi kategori berdasarkan input total jam kerja.
+
 • Penyimpanan model dan summary data per periode.
 
 ## Installation
