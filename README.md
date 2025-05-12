@@ -21,5 +21,9 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 pip install -r requirements.txt
 ```
 
-# penggunaan
+# preview
 
+![Screenshot_20250512_123908](https://github.com/user-attachments/assets/62dddc99-48e4-4ca9-84d4-f28ff763994f)
+![Screenshot_20250512_124027](https://github.com/user-attachments/assets/25f591d6-8ac8-482d-aa63-6d36b135bc38)
+![Screenshot_20250512_124315](https://github.com/user-attachments/assets/a9c053bf-4c7a-4ac9-8b8d-ad24cc9fe7fa)
+![Screenshot_20250512_124327](https://github.com/user-attachments/assets/cb4d7b7b-4fde-4bf7-887e-525c9ac6d810)
