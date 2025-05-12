@@ -17,6 +17,7 @@ Fitur Utama:
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-'''
-pip install -r requirements.txt
-'''
+```bash
+pip install foobar
+```
+
