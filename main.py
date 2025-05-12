@@ -1,6 +1,5 @@
 import rich
 import pyfiglet
-import colorama
 import random
 from banner import random_banner
 from rich.console import Console
@@ -32,7 +31,7 @@ def menu():
      case "3":
        main_menu()
      case 0:
-       break
+       exit()
 
 if __name__ == "__main__":
   menu()
