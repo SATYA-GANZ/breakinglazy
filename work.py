@@ -17,7 +17,9 @@ def work_time():
     
     if maybe == "y":
      now = datetime.now()
+     date = now.strftime('%d:%m:%Y')
      console.print("current time : ", time.strftime('%H:%M:%S'), style="cyan")
+     data1 = time.strftime('%H:%M:%S')
      until = input("input the end of your work (hour) : ")
      agenda = input("input agenda (activity) : ")
     
@@ -33,17 +35,19 @@ def work_time():
              progress.update(task, advance=1)
              time.sleep(1)
        console.print("your work has been done at this session!", style="bold cyan")
+       endWork = datetime.now()
+       endWorkStr = time.strftime("%H:%M:%S")
        reportQuestion = input("name file for save : ")
        
        if reportQuestion != None:
-        report_data = [now.strftime("%Y:%m:%d"), now.strftime("%H:%M:%S"), agenda]
+        report_data = [date, data1, endWorkStr, agenda]
        
         file_exist = os.path.exists(reportQuestion)
         with open(reportQuestion, 'a', newline='') as file:
          writer = csv.writer(file)
          
          if not file_exist:
-           writer.writerow(["tanggal", "waktu", "agenda"])
+           writer.writerow(["tanggal","waktu awal", "waktu akhir", "agenda"])
          
          writer.writerow(report_data)
          

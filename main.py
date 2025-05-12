@@ -6,6 +6,7 @@ from banner import random_banner
 from rich.console import Console
 import os
 from work import work_time
+from analisis import main_menu
 from get_record import get_log
 
 console = Console()
@@ -29,7 +30,7 @@ def menu():
      case "2":
        get_log()
      case "3":
-       break
+       main_menu()
      case 0:
        break
 
