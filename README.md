@@ -9,3 +9,8 @@ Fitur Utama:
 • Melatih model machine learning (Decision Tree) untuk mengkategorikan data.
 • Prediksi kategori berdasarkan input total jam kerja.
 • Penyimpanan model dan summary data per periode.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
