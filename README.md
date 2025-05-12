@@ -3,7 +3,7 @@ Automato CLI adalah sebuah aplikasi berbasis command-line yang digunakan untuk p
 
 Latar belakang Tools ini dibuat berdasarkan masalah saya sendiri, saya mempunyai ambisi yang besar tetapi sering menunda dan tidak mempunyai cara untuk tracking keseharian dan mengatur waktu saya. karna waktu itu benar benar sangat berharga, saya akhirnya memutuskan membuat tools ini sembari mengasah skill saya di pemrograman python,data dan juga machine learning. walau banyak tools yang lebih baik, semoga kalian enjoy. dan jangan lupa kritik serta saranya yaa :)
 
-Fitur Utama:
+# Fitur Utama:
 
 • Preprocessing data: membersihkan data, menghitung durasi kerja, dan mengelompokkan berdasarkan periode harian, mingguan, dan bulanan.
 
@@ -13,11 +13,13 @@ Fitur Utama:
 
 • Penyimpanan model dan summary data per periode.
 
-## Installation
+## Instalasi
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip install foobar
+pip install -r requirements.txt
 ```
+
+# penggunaan
 
